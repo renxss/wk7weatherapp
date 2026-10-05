@@ -5,4 +5,5 @@ body {
 
 .weather-app{
     background: white;
+    max-width: 600px;
 }
