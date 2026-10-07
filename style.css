@@ -25,12 +25,15 @@ h1 {
     padding: 30px 0;
 }
 
+.weather-app-data {
+  display: flex;
+  justify-content: space-between;
+}
+
 .weather-app-temperature {
   position: absolute;
   top: 20px;
   right: 20px;
-   display: flex;
-  justify-content: space-between;
 }
 
 .search-form-input {
