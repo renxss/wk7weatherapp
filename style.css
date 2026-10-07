@@ -17,6 +17,13 @@ a {
     border-radius: 16px;
 }
 
+.weather-data-app {
+  display: flex;
+  justify-content:space-between;
+
+
+}
+
 .search-form-input {
     background-color: #f9f7fe;
     border: none;
