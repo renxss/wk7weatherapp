@@ -26,10 +26,9 @@ h1 {
 }
 
 .weather-app-temperature {
-  display: flex;
-  justify-content:space-between;
-
-
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }
 
 .search-form-input {
