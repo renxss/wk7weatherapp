@@ -58,8 +58,13 @@ h1 {
 
 .weather-app-temperature{
     font-size: 88px;
+    font-weight: bold;
 }
 
+.weather-app-icon{
+    font-size:44px;
+    margin-top:22px;
+}
 
 
 .search-form-input {
