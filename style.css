@@ -42,12 +42,14 @@ h1 {
 .weather-app-description{
   font-size: 16px;  
   color: rgba(39, 33, 66, 0.4);
-  line-height: 20px;
+  line-height: 24px;
+  font-weight: 500;
 
 }
 
 .weather-app-description strong{
-    color: blue;
+    color: #6645b8;
+
 }
 
 .weather-app-temperature {
