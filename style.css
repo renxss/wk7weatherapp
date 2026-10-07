@@ -31,9 +31,7 @@ h1 {
 }
 
 .weather-app-temperature {
-  position: absolute;
-  top: 20px;
-  right: 20px;
+ 
 }
 
 .search-form-input {
