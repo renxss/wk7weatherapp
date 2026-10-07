@@ -52,8 +52,12 @@ h1 {
 
 }
 
-.weather-app-temperature {
- 
+.weather-app-temperature-container {
+  display: flex;
+}
+
+.weather-app-temperature{
+    font-size: 88px;
 }
 
 
