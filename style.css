@@ -17,7 +17,7 @@ a {
     border-radius: 16px;
 }
 
-.weather-data-data {
+.weather-app-data {
   display: flex;
   justify-content:space-between;
 
