@@ -30,9 +30,7 @@ h1 {
   justify-content: space-between;
 }
 
-.weather-app-data strong{
-    color: blue;
-}
+
 
 .weather-app-city{
     margin: 0;
@@ -46,6 +44,10 @@ h1 {
   color: rgba(39, 33, 66, 0.4);
   line-height: 20px;
 
+}
+
+.weather-app-description strong{
+    color: blue;
 }
 
 .weather-app-temperature {
