@@ -1,4 +1,4 @@
-function refreshWeatherData{response} {
+function refreshWeatherData(response) {
     console.log(response.data);
 }
 
