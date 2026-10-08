@@ -55,26 +55,27 @@ h1 {
 
 .weather-app-temperature-container {
   display: flex;
+  align-items: center;
 }
 
-.weather-app-temperature{
-    font-size: 88px;
-    font-weight: bold;
-    line-height: 1;
+.weather-app-temperature {
+  font-size: 88px;
+  font-weight: bold;
+  line-height: 1;
 }
 
-.weather-app-icon{
- width: 80px; 
-  height: 80px; 
-  margin-right: 10px; 
+.weather-app-icon {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
   display: block;
 }
 
-.weather-app-unit{
+.weather-app-unit {
   font-size: 28px;
   font-weight: bold;
-  margin-top: 15px; 
-  align-self: flex-start;   
+  margin-top: 0;
+  align-self: flex-start;
 }
 
 
