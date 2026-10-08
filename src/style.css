@@ -60,10 +60,8 @@ a {
 }
 
 .weather-app-icon {
-  width: 80px;
-  height: 80px;
-  margin-right: 10px;
-  display: block;
+ font-size: 80px;
+ line-height: 1;
 }
 
 .weather-app-unit {
