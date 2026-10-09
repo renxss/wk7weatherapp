@@ -31,6 +31,10 @@ a {
   flex-direction: column;
 }
 
+p.weather-app-details {
+  display: block;
+}
+
 .weather-app-city {
   margin: 0;
   font-size: 38px;
