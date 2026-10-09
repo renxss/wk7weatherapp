@@ -7,7 +7,7 @@ function refreshWeatherData(response) {
     console.log(response.data);
     
     cityElement.innerHTML = response.data.city;
-    descriptionElement = response.data.condition.description;
+    descriptionElement.innerHTML = response.data.condition.description;
     temperatureElement.innerHTML = Math.round(temperature);
    
 }
