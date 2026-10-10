@@ -10,7 +10,7 @@ function refreshWeatherData(response) {
     
     cityElement.innerHTML = response.data.city;
 
-    timeElement.innerHTML = `${date.getDay()} ${date.getHour()}:${date.getMinutes()}`;
+    timeElement.innerHTML = formatDate(date);
     descriptionElement.innerHTML = response.data.condition.description;
     humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
     windSpeedElement.innerHTML = `${response.data.wind.speed} km/h`;
