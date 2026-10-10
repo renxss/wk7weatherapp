@@ -9,7 +9,7 @@ function refreshWeatherData(response) {
     let Date = new Date (response.data.time * 1000);
     
     cityElement.innerHTML = response.data.city;
-    timeElement.innerHTML = `${date.getHour()}:${date.getMinutes()}`;
+    timeElement.innerHTML = `${date.getDay()}{date.getHour()}:${date.getMinutes()}`;
     descriptionElement.innerHTML = response.data.condition.description;
     humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
     windSpeedElement.innerHTML = `${response.data.wind.speed} km/h`;
