@@ -66,6 +66,7 @@ p.weather-app-details {
 .weather-app-icon {
  font-size: 70px;
  line-height: 1;
+ margin-top:22px;
 }
 
 .weather-app-unit {
