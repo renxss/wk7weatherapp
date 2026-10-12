@@ -22,8 +22,9 @@ a {
 
 .weather-app-data {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 5px;
 }
 
 .weather-app-details {
@@ -61,6 +62,8 @@ p.weather-app-details {
   font-size: 88px;
   font-weight: bold;
   line-height: 1;
+  display: block;
+
 }
 
 .weather-app-icon {
