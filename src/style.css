@@ -67,6 +67,9 @@ p.weather-app-details {
  font-size: 70px;
  line-height: 1;
  margin-top:22px;
+ display: flex;
+ align-items: baseline;
+ justify-content: center;
 }
 
 .weather-app-unit {
@@ -74,6 +77,8 @@ p.weather-app-details {
   font-weight: bold;
   margin-top: 0;
   align-self: flex-start;
+  display: inline;
+  width: auto;
 }
 
 .search-form {
