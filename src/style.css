@@ -37,7 +37,7 @@ p.weather-app-details {
 }
 
 .weather-app-city {
-  margin-top: 0px;
+  margin: 0px;
   font-size: 38px;
   line-height: 48px;
 }
