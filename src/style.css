@@ -77,7 +77,7 @@ p.weather-app-details {
 .weather-app-unit {
   font-size: 28px;
   font-weight: bold;
-  margin-top: 25px;
+  margin-top: 5px;
   align-self: flex-start;
   display: inline-block; 
   width: auto;
