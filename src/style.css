@@ -21,7 +21,9 @@ a {
 }
 
 .weather-app-data {
-display: block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .weather-app-details {
@@ -52,7 +54,7 @@ p.weather-app-details {
 
 .weather-app-temperature-container {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 
 }
 
