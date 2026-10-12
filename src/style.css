@@ -54,7 +54,7 @@ p.weather-app-details {
 
 .weather-app-temperature-container {
   display: flex;
-  align-items: baseline;
+  align-items: center;
 
 }
 
@@ -66,12 +66,9 @@ p.weather-app-details {
 }
 
 .weather-app-icon {
- font-size: 70px;
- line-height: 1;
- margin-top:22px;
- display: flex;
- align-items: baseline;
- justify-content: center;
+  width: 80px;
+  height: 80px;
+  vertical-align: middle;
 }
 
 .weather-app-unit {
